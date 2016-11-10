@@ -112,5 +112,44 @@ public class Lesson2ex5_1_variables_operators2 {
     boolean BooleanC = (IntG == IntGinc);
     System.out.println("(" + IntG + " == " + IntGinc + ") = " + BooleanC + "\n");
     
+    System.out.println("(is IntG not equal to IntGin?) = BooleanD");
+    boolean BooleanD = (IntG != IntGinc);
+    System.out.println("(" + IntG + " != " + IntGinc + ") = " + BooleanD + "\n");
+    
+    System.out.println("(is IntG > IntGinc?) = BooleanE");
+    boolean BooleanE = (IntG > IntGinc);
+    System.out.println("(" + IntG + " > " + IntGinc + ") = " + BooleanE + "\n");
+    
+    System.out.println("(is IntG >= IntGinc?) = BooleanF");
+    boolean BooleanF = (IntG >= IntGinc);
+    System.out.println("(" + IntG + " >= " + IntGinc + ") = " + BooleanF + "\n");
+    
+    System.out.println("(is IntG < IntGinc?) = BooleanG");
+    boolean BooleanG = (IntG < IntGinc);
+    System.out.println("(" + IntG + " < " + IntGinc + ") = " + BooleanG + "\n");
+    
+    System.out.println("(is IntG <= IntGinc?) = BooleanH");
+    boolean BooleanH = (IntG <= IntGinc);
+    System.out.println("(" + IntG + " <= " + IntGinc + ") = " + BooleanH + "\n");
+    
+    System.out.println("(is (IntG > 1) AND (IntGinc <= 100?)) = BooleanI");
+    boolean BooleanI = ((IntG > 1) && (IntGinc <= 100));
+    System.out.println("(" + IntG + ">1) && (" + IntGinc + "<=100) = " + BooleanI + "\n");
+    
+    System.out.println("(is (IntG < 10) OR (IntGinc > 10?)) = BooleanJ");
+    boolean BooleanJ = ((IntG < 10) || (IntGinc > 10));
+    System.out.println("(" + IntG + "<10) || (" + IntGinc + ">10) = " + BooleanJ + "\n");
+    // ternary operator
+    System.out.println("test condition ? statement if true : statment if false");
+    System.out.println("IntGinc=" + IntGinc + " ; IntG=" + IntG);
+    System.out.println("IntGinc = (IntG > 10 ? 0 : 100)");
+    IntGinc = (IntG > 10 ? 0 : 100);
+    System.out.println("IntGinc=" + IntGinc + " ; IntG=" + IntG + "\n");
+    //
+    System.out.println("StringK = (StringJ equals Ioan) ? StringJ : Ioan)");
+    String StringK = (StringJ.equals("Ioan") ? StringJ : "Ioan");
+    System.out.println("StringJ=" + StringJ + " ; StringK=" + StringK + "\n");
+    System.out.println("\n *** End exercise variables & operators");
+    
     }
 }
