@@ -1,5 +1,5 @@
 /*
- * Lesson 2. Exercise 2_2.
+ * Lesson 2. Exercise 3_1.
  */
 package javaclassioanp;
 
@@ -8,7 +8,7 @@ package javaclassioanp;
  * @author poclitar
  */
 import java.util.Scanner;
-public class Lesson2ex2_2_switch_scanner {
+public class Lesson2ex3_1_switch_scanner {
     public static void main (String[] args) {
         Scanner InB = new Scanner(System.in); // alocate 'InB' for kbd input 
         System.out.println ("Guess my name please"); // display info text

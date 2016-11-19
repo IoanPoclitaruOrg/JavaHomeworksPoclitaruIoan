@@ -94,14 +94,29 @@ public class Lesson2ex5_1_variables_operators2 {
     System.out.println("- IntG = IntGnegative");
     int IntGnegative = - IntG;
     System.out.println(IntG + " with sign changed = " + IntGnegative + "\n");
-    System.out.println("incremented IntG = IntGinc");
+    //
+    System.out.println("increment prefix IntG = IntGinc");
     int IntGin = IntG;
     int IntGinc = ++ IntG;
     System.out.println("++" + IntGin + " = " + IntGinc + "\n");
-    System.out.println("decremented IntGinc = IntG");
+    //
+    System.out.println("increment postfix IntG = IntGinc1");
+    IntGin = IntG;
+    int IntGinc1 = IntG++;
+    int IntGinc2 = IntG;
+    System.out.println(IntGin + "++" + " = " + IntGinc1 + ". One step later = " + IntGinc2 + "\n");
+    //
+    System.out.println("decrement prefix IntGinc = IntG");
     int IntGi = IntGinc;
     int IntGg = -- IntGinc;
     System.out.println("--" + IntGi + " = " + IntGg + "\n");
+    //
+    System.out.println("decrement postfix IntGinc = IntG");
+    IntGi = IntGinc1;
+    IntGg = IntGinc1--;
+    int IntGg1 = IntGinc1;
+    System.out.println(IntGi + "-- = " + IntGg + ". One step later = " + IntGg1 + "\n");
+    //
     System.out.println("complemented BooleanA = BooleanB");
     boolean BooleanB = ! BooleanA;
     System.out.println("!(" + BooleanA + ") = " + BooleanB + "\n");
