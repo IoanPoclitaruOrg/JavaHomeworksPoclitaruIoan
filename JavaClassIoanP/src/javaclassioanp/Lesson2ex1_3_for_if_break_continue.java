@@ -7,7 +7,7 @@ package javaclassioanp;
  * lesson 2 - Exercise 1.3 version
  * @author poclitar
  */
-public class Lesson2ex1_3 {
+public class Lesson2ex1_3_for_if_break_continue {
     public static void main (String[] args){
         int[] NumbersA = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200, 300}; // 
         // declare 'NumbersA'.

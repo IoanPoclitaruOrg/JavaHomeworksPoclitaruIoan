@@ -1,5 +1,5 @@
 /*
- * Lesson2. Exercise 5. Java primitive variables & operators.
+ * Lesson2. Exercise 5_1_variables_operators1. Java primitive variables & operators.
  */
 package javaclassioanp;
 
@@ -12,7 +12,7 @@ package javaclassioanp;
  * @author poclitar
  */
 import java.util.Scanner;
-public class Lesson2ex5_1_variables_operators {
+public class Lesson2ex5_1_variables_operators1 {
     public static void main (String[] args){
     
     // declare boolean variable 'BooleanA'.

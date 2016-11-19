@@ -9,7 +9,7 @@ package javaclassioanp;
  *
  * @author poclitar
  */
-public class JavaClassIoanP {
+public class A_JavaClassIoanP_FirstExercise {
 
     /**
      * @param args the command line arguments
