@@ -165,6 +165,6 @@ public class Lesson2ex5_1_variables_operators2 {
     String StringK = (StringJ.equals("Ioan") ? StringJ : "Ioan");
     System.out.println("StringJ=" + StringJ + " ; StringK=" + StringK + "\n");
     System.out.println("\n *** End exercise variables & operators");
-    
+ 
     }
 }
